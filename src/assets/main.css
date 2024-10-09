@@ -1,0 +1,63 @@
+*{
+  user-select: none;
+}
+
+body {
+  margin: 0px;
+  background-color: black;
+  color: rgb(224,217,217);
+}
+
+body button{
+  margin: 5px 10px;
+}
+
+#app {
+  font-weight: normal;
+}
+
+header {
+  font-size: 2em;
+  color: white;
+  margin-bottom: 20px;
+  background-color: green;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+}
+
+.component {
+  text-align: center;
+  border: 2px solid rgb(10, 69, 4);
+  background-color: #050d04;
+  border-radius: 15px;
+  margin: 30px;
+  padding: 10px;
+}
+
+.component p {
+  font-size: 1.2rem;
+}
+
+button {
+  background-color: rgb(10, 69, 4);
+  padding: 10px 20px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+button:hover{
+  background-color: rgb(5,102,28);
+}
+
+body input {
+  padding: 5px 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 24px;
+  margin: 0px 5px 10px 0px;
+}
